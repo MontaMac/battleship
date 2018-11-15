@@ -10,6 +10,7 @@ import java.io.Serializable;
 
 public class MyGame implements Serializable {
     private User user;
+    private Game game;
 
     public User getUser() {
         return user;
@@ -19,5 +20,11 @@ public class MyGame implements Serializable {
         this.user = user;
     }
 
+    public Game getGame() {
+        return game;
+    }
 
+    public void setGame(Game game) {
+        this.game = game;
+    }
 }
