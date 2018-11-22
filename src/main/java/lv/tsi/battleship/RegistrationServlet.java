@@ -22,6 +22,7 @@ public class RegistrationServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //String[] cells = request.getParameterValues("cell");
+        //...
 
         String un = request.getParameter("username");
         if (un == null || un.isBlank()) {
