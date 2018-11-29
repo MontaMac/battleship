@@ -7,7 +7,18 @@ public class User {
     private String name;
     private Field myField = new Field();
     private Field enemyField = new Field();
+    private boolean winner = false;
     private boolean ready = false;
+
+    public boolean isWinner() {
+        return winner;
+    }
+
+    public void setWinner(boolean winner) {
+        this.winner = winner;
+    }
+
+
 
     public boolean isReady() {
         return ready;
